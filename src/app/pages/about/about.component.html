@@ -1,10 +1,15 @@
 <div class="container" fxLayout="row" fxLayoutAlign="center start">
   <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%">
     <mat-card class="about-card">
-      <mat-card-header>
+      <mat-card-header class="card-header">
         <mat-card-title>About</mat-card-title>
         <mat-card-subtitle>Proyecto 07</mat-card-subtitle>
       </mat-card-header>
+      <img
+        mat-card-image
+        src="https://otakuland.site/wp-content/uploads/2022/05/logo-con-fondo.png"
+        alt="Photo of logo"
+      />
       <mat-card-content>
         <p class="about-text">{{ description }}</p>
       </mat-card-content>
