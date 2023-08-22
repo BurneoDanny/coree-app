@@ -16,6 +16,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 
 import { FlexLayoutModule } from "@angular/flex-layout";
+import { HttpClientModule } from  '@angular/common/http';
+import {MatTableModule} from '@angular/material/table';
+import {MatSelectModule} from '@angular/material/select';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -38,6 +42,10 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MatIconModule,
     MatCardModule,
     FlexLayoutModule,
+    HttpClientModule,
+    MatTableModule,
+    MatSelectModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
