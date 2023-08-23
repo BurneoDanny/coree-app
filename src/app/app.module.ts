@@ -45,7 +45,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     MatTableModule,
     MatSelectModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
